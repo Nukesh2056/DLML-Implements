@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"8bc41136ee3b631b","type":"text","text":"### Data Gathering (Via Files) : \n\n#### Data is gathered via camera Module that fitted in raspberry pi 5. \n\n***Data Contains Images of Three class lubricants :*** \n- Class 1 - Fresh \n- Class 2 - Partially Degraded \n- Class 3 - Fully Degraded \n\n\n***Standards for taking Images :*** \n- Take __ ml Lubricant in borosillicate disc & place the disk under __ Lumen's white light\n","x":-1640,"y":-698,"width":400,"height":438,"color":"4"},
+		{"id":"bf7bbbc62bda1498","type":"text","text":"### Data Pre-Processing : \nFor data pre-processing, we have applied many filters with custom parameters values in the images that is mentioned below, & is then fed to the model as an input.\n\n### **Applied Filters :** \n \n#### Edge Detection\n- sobel\n- scharr\n- prewitt\n- roberts\n- farid\n- laplace\n\n#### Ridge Medical Filters\n- sato\n- frangi\n- hessian\n- meijering\n\n#### Thresholding\n- otsu\n- li\n- yen\n- triangle\n- isodata\n- minimum\n- niblack\n- sauvola\n- multi_otsu\n\n#### Denoising & Restoration\n- gaussian\n- median\n- unsharp_mask\n- denoise_tv\n- denoise_bilateral\n\n#### Rank Filters\n- rank_mean\n- rank_entropy\n- rank_majority\n- rank_modal","x":-960,"y":-1003,"width":400,"height":1400,"color":"4"},
+		{"id":"deb87d58ccceff11","x":200,"y":-163,"width":297,"height":323,"color":"4","type":"text","text":"### Deployment : \nAfter Model has been trained we have two methods to deploy : \n\n1. We'll deploy the model in server & make give an web or application based user interface to access the Model for use. \n2. We can deploy the model in raspberry pi 5 for ease of use ( offline use ).\n"},
+		{"id":"76ffa53e09c7fe8f","x":-320,"y":-260,"width":360,"height":200,"color":"4","type":"text","text":"### Model Selection & Traning : \nWe've used a CNN ( Convolution Neural Network ) for our Project , like ResNet, EfficientNet, DenseNet, DenseNet, For now it will be batch processing \n\n"}
+	],
+	"edges":[
+		{"id":"00eba7fa9e5521c2","fromNode":"8bc41136ee3b631b","fromSide":"right","toNode":"bf7bbbc62bda1498","toSide":"left","color":"4"},
+		{"id":"ec8e9c6669fae655","fromNode":"bf7bbbc62bda1498","fromSide":"right","toNode":"76ffa53e09c7fe8f","toSide":"left","color":"4"},
+		{"id":"535f1f694bae7aaa","fromNode":"76ffa53e09c7fe8f","fromSide":"right","toNode":"deb87d58ccceff11","toSide":"left","color":"4"}
+	]
+}

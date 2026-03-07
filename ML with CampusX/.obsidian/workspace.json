@@ -4,21 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5fbc4eb12c17a63c",
+        "id": "f1c409f5ba02a9c1",
         "type": "tabs",
         "children": [
           {
-            "id": "5dcde529aeab21f9",
+            "id": "c9f9e45a0083d822",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "create a link.md",
-                "mode": "source",
-                "source": false
+                "file": "ML Pipeline for Project.canvas",
+                "viewState": {
+                  "x": -539.4438643711934,
+                  "y": -162.6586718915414,
+                  "zoom": -1.3333333333333333
+                }
               },
-              "icon": "lucide-file",
-              "title": "create a link"
+              "icon": "lucide-layout-dashboard",
+              "title": "ML Pipeline for Project"
             }
           }
         ]
@@ -78,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "f9a6c3cd8607fa9a",
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Types of ML.md",
+                "file": "ML Pipeline for Project.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +107,17 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Types of ML"
+              "title": "Backlinks for ML Pipeline for Project"
+            }
+          },
+          {
+            "id": "b2c06c24b55858f2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -113,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Types of ML.md",
+                "file": "ML Pipeline for Project.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Types of ML"
+              "title": "Outgoing links from ML Pipeline for Project"
             }
           },
           {
@@ -165,12 +178,12 @@
               "title": "Outline of Types of ML"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,11 +196,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "5dcde529aeab21f9",
+  "active": "c9f9e45a0083d822",
   "lastOpenFiles": [
+    "Machine Learning Development Lifecycle - Day 9.md",
     "Challanges with ML.md",
-    "create a link.md",
+    "Types of ML.md",
     "Welcome.md",
-    "Types of ML.md"
+    "ML Pipeline for Project.canvas",
+    "create a link.md"
   ]
 }
