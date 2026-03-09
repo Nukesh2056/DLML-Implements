@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "70e9d0c32113aec2",
+    "type": "split",
+    "children": [
+      {
+        "id": "4328b09796f0c8ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fdfe30702bdac505",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "History-Theory-Application of DL ,Day - 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "History-Theory-Application of DL ,Day - 2"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0fd5d3564da90ec8",
+    "type": "split",
+    "children": [
+      {
+        "id": "629686e499c5cc20",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b4a8e6abcd4e97d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "675ac71260dec811",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "705f1cedce034ebe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fb968cd3e70cf9c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d807153b19583f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d8137f2f92b567d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "History-Theory-Application of DL ,Day - 2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for History-Theory-Application of DL ,Day - 2"
+            }
+          },
+          {
+            "id": "9c20ec7bfe4b27dd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "History-Theory-Application of DL ,Day - 2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from History-Theory-Application of DL ,Day - 2"
+            }
+          },
+          {
+            "id": "175d77d752b1a18a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "365eb5daff40fd78",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2583d6330e379292",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "History-Theory-Application of DL ,Day - 2.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of History-Theory-Application of DL ,Day - 2"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "fdfe30702bdac505",
+  "lastOpenFiles": [
+    "Deep Learning - Day 1.md",
+    "History-Theory-Application of DL ,Day - 2.md",
+    "Pasted image 20260309113341.png",
+    "Pasted image 20260309112337.png"
+  ]
+}
