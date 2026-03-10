@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History-Theory-Application of DL ,Day - 2.md",
+                "file": "Day 5 - Perceptron Trick.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "History-Theory-Application of DL ,Day - 2"
+              "title": "Day 5 - Perceptron Trick"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Perceptron",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -186,6 +187,7 @@
   "active": "fdfe30702bdac505",
   "lastOpenFiles": [
     "Deep Learning - Day 1.md",
+    "Day 5 - Perceptron Trick.md",
     "History-Theory-Application of DL ,Day - 2.md",
     "Pasted image 20260309113341.png",
     "Pasted image 20260309112337.png"
