@@ -1,9 +1,6 @@
 ### Perceptron VS Neuron 
  
- |Feature|Neuron|Perceptron|
-|---|---|---|
-|Definition|General unit in neural networks|Specific type of neuron|
-|Activation|Many types (ReLU, sigmoid, tanh)|Step function|
-|Usage|Deep learning networks|Early ML model|
-|Complexity|Used in deep architectures|Single-layer model|
-|Output|Continuous or probability|Binary (0 or 1)|
+Perceptron is just a simple copy of neuron , A **Perceptron is a specific type of artificial neuron** introduced by **Frank Rosenblatt in 1957**.
+
+
+An **Artificial Neuron** is the **basic computational unit of a neural network**.
