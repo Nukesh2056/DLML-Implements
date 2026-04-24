@@ -11,17 +11,14 @@
             "id": "c9f9e45a0083d822",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ML Pipeline for Project.canvas",
-                "viewState": {
-                  "x": -539.4438643711934,
-                  "y": -162.6586718915414,
-                  "zoom": -1.3333333333333333
-                }
+                "file": "Machine Learning Development Lifecycle - Day 9.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "ML Pipeline for Project"
+              "icon": "lucide-file",
+              "title": "Machine Learning Development Lifecycle - Day 9"
             }
           }
         ]
@@ -198,11 +195,11 @@
   },
   "active": "c9f9e45a0083d822",
   "lastOpenFiles": [
+    "ML Pipeline for Project.canvas",
     "Machine Learning Development Lifecycle - Day 9.md",
     "Challanges with ML.md",
     "Types of ML.md",
     "Welcome.md",
-    "ML Pipeline for Project.canvas",
     "create a link.md"
   ]
 }
