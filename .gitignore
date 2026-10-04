@@ -14,7 +14,8 @@ env/
 .vscode/
 
 # Dataset files
-Datasets/
+\DL with CampusX\Dataset 
+## added this just now 
 
 # Model files
 *.h5
