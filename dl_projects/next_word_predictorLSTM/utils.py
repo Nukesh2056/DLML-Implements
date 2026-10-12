@@ -1,12 +1,13 @@
 import tensorflow as tf
 from keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences    # pyright: ignore[reportMissingImports]
-
+import os
 
 toker = Tokenizer()
 
 def create_data(text_data):
     toker.fit_on_texts([text_data])
+    unique_words = len(toker.word_index)
     input_sequences = []
     
     # storing each sentence in 'sentences' variable
@@ -17,7 +18,7 @@ def create_data(text_data):
         for i in range(1, len(sentence_vector)):
             input_sequences.append(sentence_vector[ : i+1])
             
-    return(input_sequences)
+    return input_sequences, unique_words
         
         
 # calculate the length of all input data & return the highest one 
@@ -29,3 +30,10 @@ def calculate_max_len(input_sequences):
 def pad_data(input_sequences,single_max_len):
     padded_input = pad_sequences(input_sequences, maxlen = single_max_len, padding = 'pre')
     return padded_input
+
+
+def get_x_y(padded_data):
+    x = padded_data[ : , : -1]
+    y = padded_data[ : , -1 ]
+    return (x ,y)
+
