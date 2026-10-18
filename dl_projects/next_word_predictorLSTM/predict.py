@@ -8,7 +8,7 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
 curr_path = os.path.dirname(os.path.abspath(__file__))
 
-text = "huge"
+text = "serious"
 text = text.lower()
 with open(f"{curr_path}/models/tokenizer.pkl", "rb") as f:
     toker = pickle.load(f)
@@ -28,6 +28,7 @@ if text in toker.word_index :
             if index == pos:
                 text = text + " " + word
                 print(text)
+                
 else : 
     print(f'Your text "{text}" was not in the training data')
     
